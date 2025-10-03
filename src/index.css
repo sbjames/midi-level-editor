@@ -1,0 +1,28 @@
+:root {
+  color-scheme: dark light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  background: rgba(10, 12, 20, 0.8);
+  padding: 0.15rem 0.4rem;
+  border-radius: 6px;
+}
+
+p {
+  line-height: 1.6;
+}
